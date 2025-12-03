@@ -1,0 +1,37 @@
+# create/overwrite .gitignore with recommended content
+@"
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+mtp_env/
+nllb-env/
+nllb_env/
+trankit_env/
+trankit-env/
+*/env/
+*/venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+.idea/
+
+# HuggingFace and large models
+xlmr_local/
+*.safetensors
+pytorch_model.bin
+.cache/
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+"@ > .gitignore

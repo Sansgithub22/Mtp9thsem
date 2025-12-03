@@ -6,6 +6,7 @@ This repository contains a full pipeline for building a **Bhojpuri Universal Dep
 # 1. Environment Setup
 # Create Virtual Environment
 python -m venv mtp_env
+
 mtp_env\Scripts\Activate.ps1
 
 # 2. Install Requirements
